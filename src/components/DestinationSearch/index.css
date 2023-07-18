@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.home-page {
+  padding: 20px;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right,
+    rgb(102, 255, 250),
+    rgb(160, 254, 147)
+  );
+  background-size: cover;
+}
+.search-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+.input-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: 0px solid;
+  border-radius: 6px;
+}
+.input-design {
+  border: none;
+  padding: 6px;
+  width: 280px;
+  background-color: transparent;
+  flex-wrap: wrap;
+}
+.search-img {
+  height: 20px;
+  width: 20px;
+}
+.search-head {
+  font-family: Roboto;
+  font-size: 36px;
+  color: #252627;
+}
+.city-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 792px) {
+  .search-cont {
+    align-items: center;
+  }
+  .city-card-container {
+    justify-content: center;
+  }
+}

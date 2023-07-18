@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.city-card-cont {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 280px;
+  margin-top: 20px;
+}
+.city-img {
+  height: 186px;
+  width: 220px;
+  border-radius: 6px;
+  align-self: flex-start;
+}
+.city-name {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Open Sans;
+  color: #000000;
+  align-self: flex-start;
+  padding-left: 5px;
+}
+.city-list {
+  list-style-type: none;
+}
